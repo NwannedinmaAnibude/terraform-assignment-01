@@ -5,7 +5,8 @@ pipeline {
             steps{
                 script{                    
                     withAWS(credentials: 'my-aws-credentials', region: 'eu-west-2') {
-
+            }
+        }
     stages {      
         stage ("terraform init") {
             steps {
