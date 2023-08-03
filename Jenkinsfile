@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     withAWS(credentials: 'my-aws-credentials', region: 'eu-west-2') {
-                         Access to my aws account to create an S3 bucket
+                         access to my aws account to create an S3 bucket
                     }
                 }
             }
